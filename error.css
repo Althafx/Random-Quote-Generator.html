@@ -1,0 +1,65 @@
+body{
+    background-image: url("ERROR IMAGE/painting-mountain-lake-with-mountain-background.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+   
+}
+#buttonBox{
+    margin: 200px;
+    background-color: rgb(75, 116, 116,0.8);
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    text-align: center;
+}
+button{
+    background-color: rgb(49, 134, 109,0.5);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius:5px;
+    height: 30px;
+    width: 100px;
+    
+}
+button:hover{
+    background-color: rgb(111, 151, 119);
+}
+
+#quotes{
+    margin: 200px;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: rgba(69, 121, 108, 0.8);
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    /* transition: all 0.7s ease; */
+    transition: all 0.4s;
+    overflow: hidden;
+    flex-direction: column;
+}
+#vv{
+    display: none;
+}
+/* #quotes.small{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 200px;
+} */
