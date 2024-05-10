@@ -35,13 +35,16 @@ button:hover{
 }
 
 #quotes{
+   
     margin: 200px;
-    padding: 60px;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
     background-color: rgba(69, 121, 108, 0.8);
     border-radius: 30px;
-    height: 500px;
-    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,16 +53,11 @@ button:hover{
     backdrop-filter: blur(3px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
     font-size: 20px;
-    /* transition: all 0.7s ease; */
-    transition: all 0.4s;
     overflow: hidden;
     flex-direction: column;
+    transition: all 0.6s ease-in;
 }
+
 #vv{
     display: none;
 }
-/* #quotes.small{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    height: 200px;
-} */
